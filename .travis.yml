@@ -1,7 +1,6 @@
-sudo: false
 language: node_js
 node_js:
-  - "0.10"
   - "0.12"
-after_script:
-  - npm run coveralls
+before_install:
+  - npm install --global grunt-cli titanium
+  - npm install
