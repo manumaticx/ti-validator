@@ -2,7 +2,7 @@ ti-validator
 =============
 
 [![Build Status](https://img.shields.io/travis/manumaticx/ti-validator.svg?style=flat-square)](https://travis-ci.org/manumaticx/ti-validator)
-[![Available on NPM](https://img.shields.io/npm/v/ti-validator.svg?style=flat-square)](https://www.npmjs.org/package/ti-validator)
+[![Available on NPM](https://img.shields.io/npm/v/validator.svg?style=flat-square)](https://www.npmjs.com/package/validator)
 [![Available on gitTio](https://img.shields.io/badge/available_on-gitTio-00B4CC.svg?style=flat-square)](http://gitt.io/component/validator)
 
 String validation and sanitization
