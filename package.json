@@ -1,0 +1,38 @@
+{
+  "name": "ti-validator",
+  "version": "1.0.0",
+  "description": "A library of string validators and sanitizers",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manumaticx/ti-validator"
+  },
+  "keywords": [
+    "validator",
+    "validation"
+  ],
+  "author": "Manuel Lehner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manumaticx/ti-validator/issues"
+  },
+  "homepage": "https://github.com/manumaticx/ti-validator",
+  "titaniumManifest": {
+    "name": "ti-validator",
+    "guid": "f7b26940-be56-2add-6498-4d41f3254e80",
+    "moduleid": "validator"
+  },
+  "dependencies": {
+    "validator": "~3.34.0"
+  },
+  "devDependencies": {
+    "grunt-titaniumifier": "~1.1.0",
+    "grunt": "~0.4.5",
+    "should": "~5.2.0",
+    "mocha": "~2.2.1",
+    "grunt-mocha-test": "~0.12.7"
+  }
+}
