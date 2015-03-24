@@ -17,28 +17,6 @@ With **gitTio** for  **Titanium SDK** you can easily install it with
 
     $ gittio install validator
 
-If you are instead
-- porting with [*titaniumifier*][ti] a Node.js module to Titanium, and it uses *validator*;
-- or building CommonJS module using *titaniumifier* and you want to have a reliable, stable, tested HTTPClient;
-
-then you can install this module with
-
-    $ npm install --save validator ti-validator
-
-In your `package.json` add
-
-```js
-{
-  "name": "...",
-  "version": "...",
-  // ...
-  "titanium": {
-    "validator": "ti-validator"
-  }
-}
-```
-
-This will tell *titaniumifier* that when your code requires `validator`, `ti-validator` is served instead.
 
 Usage overview
 --------------
